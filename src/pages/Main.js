@@ -2,7 +2,7 @@ import KabelengaContainer from "../components/KabelengaContainer";
 import StoriesContainer from "../components/StoriesContainer";
 import FooterContainer from "../components/FooterContainer";
 
-const App = () => {
+const Main = () => {
   return (
     <div className="relative bg-whitesmoke w-full h-[100%!important] flex flex-col items-start justify-start text-center text-[2rem] text-black font-roboto">
       <KabelengaContainer />
@@ -49,4 +49,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Main;
