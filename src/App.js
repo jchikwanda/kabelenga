@@ -27,6 +27,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/kabelengacopy":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
